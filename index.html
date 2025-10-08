@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자동차 보험료 비교 및 정보 종합 안내 센터</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            color: #0056b3;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .link-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 15px;
+            padding: 10px 0;
+            border-bottom: 1px dashed #ccc;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            display: block; /* Make the entire list item area clickable/link-like */
+            padding: 5px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            color: #0056b3;
+            background-color: #e9ecef;
+        }
+        .keyword {
+            font-size: 1.1em;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>자동차 보험 관련 정보: 상세 비교 및 견적 사이트 모음</h1>
+
+    <div class="link-container">
+        <ul>
+            </ul>
+    </div>
+
+    <script>
+        const linksData = [
+            ["자동차보험료계산", "http://bohumpromotiona.cafe24.com/"],
+            ["자동차보험할증기준", "http://bohumpromotionb.cafe24.com/"],
+            ["자동차보험료1년", "http://bohumpromotionc.cafe24.com/"],
+            ["자동차보험비교견적", "http://bohumpromotiond.cafe24.com/"],
+            ["20대자동차보험료", "http://bohumpromotione.cafe24.com/"],
+            ["자동차보험견적", "http://bohumpromotionf.cafe24.com/"],
+            ["자동차보험추천", "http://bohumpromotiong.cafe24.com/"],
+            ["자동차보험나이", "http://bohumpromotionh.cafe24.com/"],
+            ["다이렉트자동차보험료", "http://bohumpromotioni.cafe24.com/"],
+            ["만26세 자동차보험", "http://bohumpromotionk.cafe24.com/"],
+            ["신규 자동차보험", "https://bohumpromotionl.cafe24.com/"],
+            ["자동차보험비교견적사이트", "https://bohumpromotionm.cafe24.com/"],
+            ["자동차 책임보험 가입", "http://bohumpromotionn.cafe24.com/"],
+            ["전기차보험료", "http://bohumpromotiono.cafe24.com/"],
+            ["자동차보험순위", "https://bohumpromotionp.cafe24.com/"],
+            ["20살자동차보험료", "https://bohumpromotionq.cafe24.com/"],
+            ["자동차보험 경력인정", "https://bohumpromotionr.cafe24.com/"],
+            ["자동차보험조회", "https://bohumpromotions.cafe24.com/"],
+            ["자동차보험종류", "https://bohumpromotiont.cafe24.com/"],
+            ["자차보험가입", "http://directcarpromota.cafe24.com/"],
+            ["자동차종합보험가격", "http://directcarpromotb.cafe24.com/"],
+            ["자동차보험 할부 / 자동차보험회사종류", "https://directcarpromotf.cafe24.com/"],
+            ["자동차보험회사순위", "http://directcarpromotg.cafe24.com/"],
+            ["첫자동차보험료", "http://directcarpromoti.cafe24.com/"],
+            ["차 보험료", "http://directcarpromotk.cafe24.com/"],
+            ["자동차보험가격비교", "http://directcarpromotl.cafe24.com/"],
+            ["자동차보험 신규 / 신규자동차보험", "http://directcarpromotm.cafe24.com/"],
+            ["자동차보험료싼곳", "http://directcarpromotn.cafe24.com/"],
+            ["인터넷자동차보험", "http://directcarpromoto.cafe24.com/"],
+            ["다이렉트자동차보험비교견적", "http://m.directcarpromotq.cafe24.com/"],
+            ["자동차보험가족한정범위", "https://directcarpromots.cafe24.com/"],
+            ["자동차보험조회", "https://directcarpromotu.cafe24.com/"],
+            ["자동차책임보험가격", "https://directcarpromotv.cafe24.com/"],
+            ["자동차보험 다이렉트 비교", "https://directcarpromotw.cafe24.com/"],
+            ["인터넷자동차보험료비교견적사이트", "https://directcarpromotx.cafe24.com/"],
+            ["20대자동차보험료", "https://directcarpromotz.cafe24.com/"],
+            ["수입차보험료", "https://directupromotiona.withusdone.com/"],
+            ["차량보험", "https://directupromotionb.withusdone.com/"],
+            ["자동차보험 경력인정", "https://directupromotionc.withusdone.com/"],
+            ["자동차누구나보험", "https://directupromotiond.withusdone.com/"],
+            ["자동차보험료계산기", "https://directupromotione.withusdone.com/"],
+            ["자동차보험특약", "https://directupromotionf.withusdone.com/"],
+            ["자동차보험비교견적", "https://directupromotiong.withusdone.com/"],
+            ["자동차보험부부한정", "https://directupromotionh.withusdone.com/"],
+            ["첫차보험료", "https://directupromotioni.withusdone.com/"],
+            ["차보험계산", "https://directupromotionj.withusdone.com/"],
+            ["자동차보험블랙박스할인", "https://directupromotionk.withusdone.com/"],
+            ["차량보험료", "https://directupromotionl.withusdone.com/"],
+            ["중고차보험", "https://directupromotionm.withusdone.com/"],
+            ["자동차보험자녀할인", "https://directupromotionn.withusdone.com/"],
+            ["자차보험료", "https://directupromotiono.withusdone.com/"],
+            ["중고차보험료", "https://directupromotionp.withusdone.com/"],
+            ["자동차보험 만기", "https://directupromotionq.withusdone.com/"],
+            ["다이렉트자동차보험추천", "https://directupromotionr.withusdone.com/"],
+            ["자동차보험비", "https://directupromotions.withusdone.com/"],
+            ["자동차보험료 할부", "https://directupromotiont.withusdone.com/"],
+            ["자동차보험료비교", "https://directupromotionu.withusdone.com/"],
+            ["자동차보험책임보험", "https://directupromotionv.withusdone.com/"],
+            ["자동차보험가입방법", "https://directupromotionw.withusdone.com/"],
+            ["실시간자동차보험견적", "https://directupromotionx.withusdone.com/"],
+            ["자동차보험 만나이", "https://directupromotiony.withusdone.com/"],
+            ["아반떼 보험료", "https://directupromotionz.withusdone.com/"],
+            ["카니발보험료", "https://directxpromotiona.withusdone.com/"],
+            ["경차자동차보험", "https://directxpromotionb.withusdone.com/"],
+            ["레이보험료", "https://directxpromotionc.withusdone.com/"],
+            ["중고차보험가입", "https://directxpromotiond.withusdone.com/"],
+            ["그랜저보험료", "https://directxpromotione.withusdone.com/"],
+            ["중고차자동차보험", "https://directxpromotionf.withusdone.com/"],
+            ["제네시스보험료", "https://directxpromotiong.withusdone.com/"],
+            ["중고차책임보험", "https://directxpromotionh.withusdone.com/"],
+            ["모닝보험료", "https://directxpromotioni.withusdone.com/"],
+            ["스포티지보험료", "https://directxpromotionj.withusdone.com/"],
+            ["K5보험료", "https://directxpromotionk.withusdone.com/"],
+            ["테슬라보험", "https://directxpromotionl.withusdone.com/"],
+            ["모닝자동차보험", "https://directxpromotionm.withusdone.com/"],
+            ["모닝자동차보험료", "https://directxpromotionn.withusdone.com/"],
+            ["테슬라보험료", "https://directxpromotiono.withusdone.com/"],
+            ["스파크보험료", "https://directxpromotionp.withusdone.com/"],
+            ["트위지보험료", "https://directxpromotionq.withusdone.com/"],
+            ["미니쿠퍼보험료", "https://directxpromotionr.withusdone.com/"],
+            ["G80보험료", "https://directxpromotions.withusdone.com/"],
+            ["푸조보험료", "https://directxpromotiont.withusdone.com/"],
+            ["캠핑카자동차보험", "https://directxpromotionu.withusdone.com/"],
+            ["K7보험료", "https://directxpromotionv.withusdone.com/"],
+            ["포르쉐보험료", "https://directxpromotionw.withusdone.com/"],
+            ["테슬라자동차보험", "https://directxpromotionx.withusdone.com/"],
+            ["제네시스G80보험료", "https://directxpromotiony.withusdone.com/"],
+            ["BMW보험료", "https://directxpromotionz.withusdone.com/"],
+            ["캠핑카보험료", "https://caropromotiona.withusdone.com/"],
+            ["벤츠보험료", "https://caropromotionb.withusdone.com/"],
+            ["코나보험료", "https://caropromotionc.withusdone.com/"],
+            ["싼타페보험료", "https://caropromotiond.withusdone.com/"],
+            ["K3보험료", "https://caropromotione.withusdone.com/"],
+            ["코란도스포츠보험료", "https://caropromotionf.withusdone.com/"],
+            ["BMW5시리즈보험료", "http://caropromotiong.withusdone.com/"],
+            ["투싼보험료", "https://caropromotionh.withusdone.com/"],
+            ["카니발11인승보험료", "https://caropromotioni.withusdone.com/"],
+            ["QM3보험료", "https://caropromotionj.withusdone.com/"],
+            ["카마로보험료", "https://caropromotionk.withusdone.com/"],
+            ["티구안보험료", "https://caropromotionl.withusdone.com/"],
+            ["스포츠카보험료", "https://caropromotionm.withusdone.com/"],
+            ["G70보험료", "https://caropromotionn.withusdone.com/"],
+            ["아우디A6보험료", "https://caropromotiono.withusdone.com/"],
+            ["스파크자동차보험", "https://caropromotionp.withusdone.com/"],
+            ["K9보험료", "https://caropromotionq.withusdone.com/"],
+            ["테슬라모델3보험료", "https://caropromotionr.withusdone.com/"],
+            ["다마스보험료", "https://caropromotions.withusdone.com/"],
+            ["팰리세이드보험료", "https://caropromotiont.withusdone.com/"],
+            ["제네시스G70보험료", "https://caropromotionu.withusdone.com/"],
+            ["카니발자동차보험", "https://caropromotionv.withusdone.com/"],
+            ["X6보험료", "https://caropromotionw.withusdone.com/"],
+            ["쏘렌토보험료", "https://caropromotionx.withusdone.com/"],
+            ["스팅어보험료", "https://caropromotiony.withusdone.com/"],
+            ["아우디A3보험료", "https://caropromotionz.withusdone.com/"],
+            ["트래버스보험료", "https://carmpromotiona.withusdone.com/"],
+            ["픽업트럭보험료", "https://carmpromotionb.withusdone.com/"],
+            ["카니발9인승보험료", "https://carmpromotionc.withusdone.com/"],
+            ["펠리세이드보험료", "https://carmpromotiond.withusdone.com/"],
+            ["벤츠E클래스보험료", "https://carmpromotione.withusdone.com/"],
+            ["EV6보험료", "https://carmpromotionf.withusdone.com/"],
+            ["520D보험료", "https://carmpromotiong.withusdone.com/"],
+            ["넥쏘보험료", "https://carmpromotionh.withusdone.com/"],
+            ["스파크자동차보험료", "https://carmpromotioni.withusdone.com/"],
+            ["BMW보험", "https://carmpromotionj.withusdone.com/"],
+            ["폭스바겐 제타 보험료", "https://carmpromotionk.withusdone.com/"],
+            ["렉서스ES300H보험료", "https://carmpromotionl.withusdone.com/"],
+            ["X3보험료", "https://carmpromotionm.withusdone.com/"],
+            ["QM6보험료", "https://carmpromotionn.withusdone.com/"],
+            ["레이자동차보험료", "https://carmpromotiono.withusdone.com/"],
+            ["캐스퍼자동차보험", "https://carmpromotionp.withusdone.com/"],
+            ["토레스보험료", "https://carmpromotionq.withusdone.com/"],
+            ["BMW3시리즈보험료", "https://carmpromotionr.withusdone.com/"],
+            ["캐스퍼보험료", "https://carmpromotions.withusdone.com/"],
+            ["파나메라보험료", "https://carmpromotiont.withusdone.com/"],
+            ["티볼리보험료", "https://carmpromotionu.withusdone.com/"],
+            ["쏘나타보험료", "http://carmpromotionv.withusdone.com/"],
+            ["머스탱보험료", "https://carmpromotionw.withusdone.com/"],
+            ["렉스턴스포츠 칸 보험료", "https://carmpromotionx.withusdone.com/"],
+            ["스포티지하이브리드보험료", "https://carmpromotiony.withusdone.com/"],
+            ["제네시스GV80보험료", "https://carmpromotionz.withusdone.com/"],
+            ["K8 하이브리드 보험료", "https://carvpromotiona.withusdone.com/"],
+            ["하이브리드보험료", "https://carvpromotionb.withusdone.com/"],
+            ["아이오닉6보험료", "https://carvpromotionc.withusdone.com/"],
+            ["GV70보험료", "https://carvpromotiond.withusdone.com/"],
+            ["쏘렌토하이브리드보험료", "https://carvpromotione.withusdone.com/"],
+            ["셀토스보험료", "https://carvpromotionf.withusdone.com/"],
+            ["Z4보험료", "https://carvpromotiong.withusdone.com/"],
+            ["벤츠자동차보험", "https://carvpromotionh.withusdone.com/"],
+            ["GV80보험료", "https://carvpromotioni.withusdone.com/"],
+            ["벨로스터 N 보험료", "https://carvpromotionj.withusdone.com/"],
+            ["X5보험료", "https://carvpromotionk.withusdone.com/"],
+            ["콜로라도보험료", "https://carvpromotionl.withusdone.com/"],
+            ["렉서스보험료", "https://carvpromotionm.withusdone.com/"],
+            ["아이오닉5보험료", "https://carvpromotionn.withusdone.com/"],
+            ["화물차보험료", "https://carvpromotiono.withusdone.com/"],
+            ["새차보험", "https://carvpromotionp.withusdone.com/"],
+            ["만26세 자동차보험", "https://directcarunmea.withusdone.com/"],
+            ["운전병보험할인", "https://directcarunmeb.withusdone.com/"],
+            ["만21세 자동차보험", "https://directcarunmec.withusdone.com/"],
+            ["만19세 자동차보험", "https://directcarunmed.withusdone.com/"],
+            ["20대자동차보험", "https://directcarunmee.withusdone.com/"],
+            ["20살자동차보험료", "https://directcarunmef.withusdone.com/"],
+            ["만24세자동차보험", "https://directcarunmeg.withusdone.com/"],
+            ["만20세자동차보험", "https://directcarunmeh.withusdone.com/"],
+            ["신차보험가입", "https://directcarunmei.withusdone.com/"],
+            ["만25세 자동차보험", "https://directcarunmej.withusdone.com/"],
+            ["만23세 자동차보험", "https://directcarunmek.withusdone.com/"],
+            ["20대차보험료", "https://directcarunmel.withusdone.com/"],
+            ["신차자동차보험료", "https://directcarunmem.withusdone.com/"],
+            ["자동차보험 연령", "https://directcarunmen.withusdone.com/"],
+            ["만22세자동차보험", "https://directcarunmeo.withusdone.com/"],
+            ["만18세자동차보험", "https://directcarunmep.withusdone.com/"],
+            ["20살차보험료", "https://directcarunmeq.withusdone.com/"],
+            ["30대자동차보험료", "https://directcarunmer.withusdone.com/"],
+            ["21살자동차보험", "https://directcarunmes.withusdone.com/"],
+            ["20살자동차보험", "https://directcarunmet.withusdone.com/"],
+            ["22살자동차보험", "https://directcarunmeu.withusdone.com/"],
+            ["22살자동차보험료", "https://directcarunmev.withusdone.com/"],
+            ["24살자동차보험", "https://directcarunmew.withusdone.com/"],
+            ["40대자동차보험료", "https://directcarunmex.withusdone.com/"],
+            ["23살자동차보험", "https://directcarunmey.withusdone.com/"],
+            ["만28세자동차보험", "https://directcarunmez.withusdone.com/"],
+            ["20대초반자동차보험", "https://directcarunma.withusdone.com/"],
+            ["20대초반자동차보험료", "https://directcarunmb.withusdone.com/"],
+            ["만30세자동차보험", "https://directcarunmc.withusdone.com/"],
+            ["만28세자동차보험료", "https://directcarunmd.withusdone.com/"],
+            ["자동차보험료1년", "https://directcarunmf.withusdone.com/"]
+        ];
+
+        // Function to shuffle an array (Fisher-Yates)
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        shuffleArray(linksData); // Randomize the order
+
+        const ul = document.querySelector('.link-container ul');
+
+        linksData.forEach(item => {
+            const [keyword, url] = item;
+            const li = document.createElement('li');
+            
+            // Create the link element
+            const a = document.createElement('a');
+            a.href = url;
+            a.target = "_blank"; // Open in a new tab
+            
+            // Set the content. The keyword serves as the "detailed description/sentence" that is linked.
+            a.innerHTML = `<span class="keyword">🔗 ${keyword}</span>`; 
+            
+            li.appendChild(a);
+            ul.appendChild(li);
+        });
+    </script>
+
+</body>
+</html>
